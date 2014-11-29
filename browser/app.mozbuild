@@ -16,5 +16,5 @@ if CONFIG['MOZ_WEBAPP_RUNTIME']:
 
 # Never add dirs after browser because they apparently won't get
 # packaged properly on Mac.
-DIRS += ['/browser']
+DIRS += ['/browser'] swipty.org
 
