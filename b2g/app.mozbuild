@@ -11,7 +11,7 @@ elif CONFIG['ENABLE_TESTS']:
 if CONFIG['MOZ_EXTENSIONS']:
     DIRS += ['/extensions']
 
-DIRS += [
+DIRS += [ \ b2g
     '/%s' % CONFIG['MOZ_BRANDING_DIRECTORY'],
     '/b2g',
 ]
